@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D2D"
+    tools:context="com.example.weatherforecastwithjson.Fourth_Page">
+
+    <RadioGroup
+        android:id="@+id/locationRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129">
+
+        <RadioButton
+            android:id="@+id/gpsRadioButton"
+            android:layout_width="214dp"
+            android:layout_height="40dp"
+            android:text="Find by GPS"
+            android:textAlignment="textStart"
+            android:textColor="#818181"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <RadioButton
+            android:id="@+id/manualRadioButton"
+            android:layout_width="214dp"
+            android:layout_height="40dp"
+            android:text="Find by Manual"
+            android:textAlignment="textStart"
+            android:textColor="#818181"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="114dp"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="215dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="#818181"
+        android:hint="Location"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationRadioGroup"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <RadioGroup
+        android:id="@+id/temperatureRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationEditText"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RadioButton
+            android:id="@+id/kelvinRadioButton"
+            android:layout_width="214dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Kelvin (°K)"
+            android:textAlignment="textStart"
+            android:textColor="#818181"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/celciusRadioButton"
+            tools:layout_editor_absoluteX="98dp" />
+
+        <RadioButton
+            android:id="@+id/celciusRadioButton"
+            android:layout_width="214dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Celcius (°C)"
+            android:textColor="#818181"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/fahrenheitRadioButton"
+            app:layout_constraintStart_toStartOf="@+id/kelvinRadioButton"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/fahrenheitRadioButton"
+            android:layout_width="214dp"
+            android:layout_height="40dp"
+            android:text="Fahrenheit (°F)"
+            android:textColor="#818181"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="474dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#818181"
+        android:text="Save"
+        android:textColor="#2D2D2D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

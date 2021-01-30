@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D2D">
+
+    <ImageView
+        android:id="@+id/windImage2"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/windImage4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage4"
+        app:layout_constraintTop_toTopOf="@+id/windImage1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_grass_24"
+        app:tint="#818181" />
+
+    <TextView
+        android:id="@+id/speed2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/speed1"
+        app:layout_constraintEnd_toEndOf="@+id/windImage4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage4"
+        app:layout_constraintTop_toBottomOf="@+id/windImage2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/windDegree1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/windImage3"
+        app:layout_constraintEnd_toEndOf="@+id/speed1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/speed1"
+        app:layout_constraintTop_toTopOf="@+id/windDegree2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/windImage1"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/windImage2"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/ic_baseline_grass_24"
+        app:tint="#818181" />
+
+    <ImageView
+        android:id="@+id/windImage3"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/windImage4"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/windImage4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_grass_24"
+        app:tint="#818181" />
+
+    <TextView
+        android:id="@+id/windDegree4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/speed4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/speed4"
+        app:layout_constraintTop_toBottomOf="@+id/speed3"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/windDegree3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/speed3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/speed3"
+        app:layout_constraintTop_toBottomOf="@+id/speed3"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/speed3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/windImage3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage3"
+        app:layout_constraintTop_toBottomOf="@+id/windImage3"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ImageView
+        android:id="@+id/windImage4"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        app:srcCompat="@drawable/ic_baseline_grass_24"
+        app:tint="#818181" />
+
+    <TextView
+        android:id="@+id/speed4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/windDegree4"
+        app:layout_constraintEnd_toEndOf="@+id/windImage4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage4"
+        app:layout_constraintTop_toBottomOf="@+id/windImage4"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/locationName"
+        android:layout_width="241dp"
+        android:layout_height="57dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/windDegree3"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <TextView
+        android:id="@+id/windDegree2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/windImage4"
+        app:layout_constraintEnd_toEndOf="@+id/windImage2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage2"
+        app:layout_constraintTop_toBottomOf="@+id/speed2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/speed1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/windImage1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage1"
+        app:layout_constraintTop_toBottomOf="@+id/windImage1" />
+
+    <TextView
+        android:id="@+id/daySign1"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/windImage1"
+        app:layout_constraintEnd_toStartOf="@+id/daySign2"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/daySign3"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/windImage3"
+        app:layout_constraintEnd_toStartOf="@+id/daySign4"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/windDegree1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/daySign4"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/windImage4"
+        app:layout_constraintEnd_toEndOf="@+id/windDegree2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage4"
+        app:layout_constraintTop_toBottomOf="@+id/windDegree2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/daySign2"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="36dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/windImage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windImage2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

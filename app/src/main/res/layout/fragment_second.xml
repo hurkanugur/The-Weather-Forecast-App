@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D2D">
+
+
+    <ImageView
+        android:id="@+id/weatherImageDay2"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/weatherImageDay4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay4"
+        app:layout_constraintTop_toTopOf="@+id/weatherImageDay1"
+        app:layout_constraintVertical_bias="0.0"
+        app:tint="#818181" />
+
+    <TextView
+        android:id="@+id/degree2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/degree"
+        app:layout_constraintEnd_toEndOf="@+id/weatherImageDay2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay2"
+        app:layout_constraintTop_toBottomOf="@+id/weatherImageDay2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/weatherNameDay1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/weatherImageDay3"
+        app:layout_constraintEnd_toEndOf="@+id/degree"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/degree"
+        app:layout_constraintTop_toTopOf="@+id/weatherNameDay2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/weatherImageDay1"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/weatherImageDay2"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:tint="#818181" />
+
+    <ImageView
+        android:id="@+id/weatherImageDay3"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/weatherImageDay4"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/weatherImageDay4"
+        app:layout_constraintVertical_bias="0.0"
+        app:tint="#818181" />
+
+    <TextView
+        android:id="@+id/weatherNameDay4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/degree4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/degree4"
+        app:layout_constraintTop_toBottomOf="@+id/degree3"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/weatherNameDay3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/degree3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/degree3"
+        app:layout_constraintTop_toBottomOf="@+id/degree3"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/degree3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/weatherImageDay3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay3"
+        app:layout_constraintTop_toBottomOf="@+id/weatherImageDay3"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ImageView
+        android:id="@+id/weatherImageDay4"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        app:tint="#818181" />
+
+    <TextView
+        android:id="@+id/degree4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/weatherNameDay4"
+        app:layout_constraintEnd_toEndOf="@+id/weatherImageDay4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay4"
+        app:layout_constraintTop_toBottomOf="@+id/weatherImageDay4"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/cityName"
+        android:layout_width="241dp"
+        android:layout_height="57dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weatherNameDay3"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <TextView
+        android:id="@+id/weatherNameDay2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/weatherImageDay4"
+        app:layout_constraintEnd_toEndOf="@+id/weatherImageDay2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay2"
+        app:layout_constraintTop_toBottomOf="@+id/degree2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/degree"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/weatherImageDay1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay1"
+        app:layout_constraintTop_toBottomOf="@+id/weatherImageDay1" />
+
+    <TextView
+        android:id="@+id/dayName1"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/weatherImageDay1"
+        app:layout_constraintEnd_toStartOf="@+id/dayName2"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/dayName3"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/weatherImageDay3"
+        app:layout_constraintEnd_toStartOf="@+id/dayName4"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weatherNameDay1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/dayName4"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/weatherImageDay4"
+        app:layout_constraintEnd_toEndOf="@+id/weatherNameDay2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay4"
+        app:layout_constraintTop_toBottomOf="@+id/weatherNameDay2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/dayName2"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="36dp"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        app:layout_constraintBottom_toTopOf="@+id/weatherImageDay2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weatherImageDay2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
